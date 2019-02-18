@@ -5,7 +5,7 @@ let vida = 10;
 let achou = false;
 
 while((vida != 0)&&(achou == false)){
-    let chute = Number(prompt("Chute um número!\n Você tem "+ vida+" vidas"))
+    let chute = Number(prompt("Chute um número!\n Você tem "+ vida+" vidas \n\nDigite 100 para sair do jogo"))
     if(chute == 100) break;
     if(chute == aleatório){
       alert("Parabens vc acertou");
